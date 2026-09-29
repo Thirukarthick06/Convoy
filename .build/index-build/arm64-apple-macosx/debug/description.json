@@ -1,0 +1,783 @@
+{
+  "builtTestProducts" : [
+
+  ],
+  "copyCommands" : {
+
+  },
+  "explicitTargetDependencyImportCheckingMode" : {
+    "none" : {
+
+    }
+  },
+  "generatedSourceTargetSet" : [
+
+  ],
+  "pluginDescriptions" : [
+
+  ],
+  "swiftCommands" : {
+    "C.Convoy-arm64-apple-macosx-debug.module" : {
+      "executable" : "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "fileList" : "/Users/user99/Documents/convoy prototype/.build/index-build/arm64-apple-macosx/debug/Convoy.build/sources",
+      "importPath" : "/Users/user99/Documents/convoy prototype/.build/index-build/arm64-apple-macosx/debug/Modules",
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/user99/Documents/convoy prototype/Convoy/App/AppCoordinator.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/user99/Documents/convoy prototype/Convoy/App/AppState.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/user99/Documents/convoy prototype/Convoy/App/ConvoyApp.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/user99/Documents/convoy prototype/Convoy/App/MainTabView.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/user99/Documents/convoy prototype/Convoy/App/TabRouter.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/user99/Documents/convoy prototype/Convoy/Core/DesignSystem/ConvoyButton.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/user99/Documents/convoy prototype/Convoy/Core/DesignSystem/ConvoyCard.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/user99/Documents/convoy prototype/Convoy/Core/DesignSystem/ConvoyComponents.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/user99/Documents/convoy prototype/Convoy/Core/DesignSystem/ConvoyTheme.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/user99/Documents/convoy prototype/Convoy/Core/Location/LocationManager.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/user99/Documents/convoy prototype/Convoy/Core/Networking/MockNetworkService.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/user99/Documents/convoy prototype/Convoy/Core/Networking/NetworkService.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/user99/Documents/convoy prototype/Convoy/Core/Persistence/PersistenceController.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/user99/Documents/convoy prototype/Convoy/Core/Utilities/Extensions.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/user99/Documents/convoy prototype/Convoy/Core/Utilities/HapticManager.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/user99/Documents/convoy prototype/Convoy/Features/Clubs/ClubsView.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/user99/Documents/convoy prototype/Convoy/Features/Clubs/ClubsViewModel.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/user99/Documents/convoy prototype/Convoy/Features/Friends/FriendsView.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/user99/Documents/convoy prototype/Convoy/Features/Friends/FriendsViewModel.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/user99/Documents/convoy prototype/Convoy/Features/Home/HomeView.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/user99/Documents/convoy prototype/Convoy/Features/Home/HomeViewModel.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/user99/Documents/convoy prototype/Convoy/Features/Journal/JournalViewModel.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/user99/Documents/convoy prototype/Convoy/Features/Journal/RideJournalView.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/user99/Documents/convoy prototype/Convoy/Features/LiveRide/GroupMapView.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/user99/Documents/convoy prototype/Convoy/Features/LiveRide/LiveRideView.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/user99/Documents/convoy prototype/Convoy/Features/LiveRide/LiveRideViewModel.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/user99/Documents/convoy prototype/Convoy/Features/LiveRide/RideCompleteView.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/user99/Documents/convoy prototype/Convoy/Features/Onboarding/OnboardingView.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/user99/Documents/convoy prototype/Convoy/Features/Onboarding/OnboardingViewModel.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/user99/Documents/convoy prototype/Convoy/Features/Planning/AIPlannerView.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/user99/Documents/convoy prototype/Convoy/Features/Planning/PlanRideView.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/user99/Documents/convoy prototype/Convoy/Features/Planning/PlanningViewModel.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/user99/Documents/convoy prototype/Convoy/Features/Planning/RoutePlannerView.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/user99/Documents/convoy prototype/Convoy/Features/Profile/ProfileView.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/user99/Documents/convoy prototype/Convoy/Features/Profile/ProfileViewModel.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/user99/Documents/convoy prototype/Convoy/Features/Rides/RideDetailView.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/user99/Documents/convoy prototype/Convoy/Features/Rides/RidesView.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/user99/Documents/convoy prototype/Convoy/Features/Rides/RidesViewModel.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/user99/Documents/convoy prototype/Convoy/Features/Safety/SafetyCenterView.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/user99/Documents/convoy prototype/Convoy/Features/Safety/SafetyViewModel.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/user99/Documents/convoy prototype/Convoy/Models/Club.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/user99/Documents/convoy prototype/Convoy/Models/Enums.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/user99/Documents/convoy prototype/Convoy/Models/Ride.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/user99/Documents/convoy prototype/Convoy/Models/User.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/user99/Documents/convoy prototype/Convoy/Services/AIService.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/user99/Documents/convoy prototype/Convoy/Services/AuthService.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/user99/Documents/convoy prototype/Convoy/Services/DemoDataService.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/user99/Documents/convoy prototype/Convoy/Services/LocationSharingService.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/user99/Documents/convoy prototype/Convoy/Services/RideService.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/user99/Documents/convoy prototype/Convoy/Services/SafetyService.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/user99/Documents/convoy prototype/Convoy/Services/WeatherService.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/user99/Documents/convoy prototype/.build/index-build/arm64-apple-macosx/debug/swift-version--58304C5D6DBC2206.txt"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/user99/Documents/convoy prototype/.build/index-build/arm64-apple-macosx/debug/Convoy.build/sources"
+        }
+      ],
+      "isLibrary" : true,
+      "moduleName" : "Convoy",
+      "moduleOutputPath" : "/Users/user99/Documents/convoy prototype/.build/index-build/arm64-apple-macosx/debug/Modules/Convoy.swiftmodule",
+      "objects" : [
+        "/Users/user99/Documents/convoy prototype/.build/index-build/arm64-apple-macosx/debug/Convoy.build/AppCoordinator.swift.o",
+        "/Users/user99/Documents/convoy prototype/.build/index-build/arm64-apple-macosx/debug/Convoy.build/AppState.swift.o",
+        "/Users/user99/Documents/convoy prototype/.build/index-build/arm64-apple-macosx/debug/Convoy.build/ConvoyApp.swift.o",
+        "/Users/user99/Documents/convoy prototype/.build/index-build/arm64-apple-macosx/debug/Convoy.build/MainTabView.swift.o",
+        "/Users/user99/Documents/convoy prototype/.build/index-build/arm64-apple-macosx/debug/Convoy.build/TabRouter.swift.o",
+        "/Users/user99/Documents/convoy prototype/.build/index-build/arm64-apple-macosx/debug/Convoy.build/ConvoyButton.swift.o",
+        "/Users/user99/Documents/convoy prototype/.build/index-build/arm64-apple-macosx/debug/Convoy.build/ConvoyCard.swift.o",
+        "/Users/user99/Documents/convoy prototype/.build/index-build/arm64-apple-macosx/debug/Convoy.build/ConvoyComponents.swift.o",
+        "/Users/user99/Documents/convoy prototype/.build/index-build/arm64-apple-macosx/debug/Convoy.build/ConvoyTheme.swift.o",
+        "/Users/user99/Documents/convoy prototype/.build/index-build/arm64-apple-macosx/debug/Convoy.build/LocationManager.swift.o",
+        "/Users/user99/Documents/convoy prototype/.build/index-build/arm64-apple-macosx/debug/Convoy.build/MockNetworkService.swift.o",
+        "/Users/user99/Documents/convoy prototype/.build/index-build/arm64-apple-macosx/debug/Convoy.build/NetworkService.swift.o",
+        "/Users/user99/Documents/convoy prototype/.build/index-build/arm64-apple-macosx/debug/Convoy.build/PersistenceController.swift.o",
+        "/Users/user99/Documents/convoy prototype/.build/index-build/arm64-apple-macosx/debug/Convoy.build/Extensions.swift.o",
+        "/Users/user99/Documents/convoy prototype/.build/index-build/arm64-apple-macosx/debug/Convoy.build/HapticManager.swift.o",
+        "/Users/user99/Documents/convoy prototype/.build/index-build/arm64-apple-macosx/debug/Convoy.build/ClubsView.swift.o",
+        "/Users/user99/Documents/convoy prototype/.build/index-build/arm64-apple-macosx/debug/Convoy.build/ClubsViewModel.swift.o",
+        "/Users/user99/Documents/convoy prototype/.build/index-build/arm64-apple-macosx/debug/Convoy.build/FriendsView.swift.o",
+        "/Users/user99/Documents/convoy prototype/.build/index-build/arm64-apple-macosx/debug/Convoy.build/FriendsViewModel.swift.o",
+        "/Users/user99/Documents/convoy prototype/.build/index-build/arm64-apple-macosx/debug/Convoy.build/HomeView.swift.o",
+        "/Users/user99/Documents/convoy prototype/.build/index-build/arm64-apple-macosx/debug/Convoy.build/HomeViewModel.swift.o",
+        "/Users/user99/Documents/convoy prototype/.build/index-build/arm64-apple-macosx/debug/Convoy.build/JournalViewModel.swift.o",
+        "/Users/user99/Documents/convoy prototype/.build/index-build/arm64-apple-macosx/debug/Convoy.build/RideJournalView.swift.o",
+        "/Users/user99/Documents/convoy prototype/.build/index-build/arm64-apple-macosx/debug/Convoy.build/GroupMapView.swift.o",
+        "/Users/user99/Documents/convoy prototype/.build/index-build/arm64-apple-macosx/debug/Convoy.build/LiveRideView.swift.o",
+        "/Users/user99/Documents/convoy prototype/.build/index-build/arm64-apple-macosx/debug/Convoy.build/LiveRideViewModel.swift.o",
+        "/Users/user99/Documents/convoy prototype/.build/index-build/arm64-apple-macosx/debug/Convoy.build/RideCompleteView.swift.o",
+        "/Users/user99/Documents/convoy prototype/.build/index-build/arm64-apple-macosx/debug/Convoy.build/OnboardingView.swift.o",
+        "/Users/user99/Documents/convoy prototype/.build/index-build/arm64-apple-macosx/debug/Convoy.build/OnboardingViewModel.swift.o",
+        "/Users/user99/Documents/convoy prototype/.build/index-build/arm64-apple-macosx/debug/Convoy.build/AIPlannerView.swift.o",
+        "/Users/user99/Documents/convoy prototype/.build/index-build/arm64-apple-macosx/debug/Convoy.build/PlanRideView.swift.o",
+        "/Users/user99/Documents/convoy prototype/.build/index-build/arm64-apple-macosx/debug/Convoy.build/PlanningViewModel.swift.o",
+        "/Users/user99/Documents/convoy prototype/.build/index-build/arm64-apple-macosx/debug/Convoy.build/RoutePlannerView.swift.o",
+        "/Users/user99/Documents/convoy prototype/.build/index-build/arm64-apple-macosx/debug/Convoy.build/ProfileView.swift.o",
+        "/Users/user99/Documents/convoy prototype/.build/index-build/arm64-apple-macosx/debug/Convoy.build/ProfileViewModel.swift.o",
+        "/Users/user99/Documents/convoy prototype/.build/index-build/arm64-apple-macosx/debug/Convoy.build/RideDetailView.swift.o",
+        "/Users/user99/Documents/convoy prototype/.build/index-build/arm64-apple-macosx/debug/Convoy.build/RidesView.swift.o",
+        "/Users/user99/Documents/convoy prototype/.build/index-build/arm64-apple-macosx/debug/Convoy.build/RidesViewModel.swift.o",
+        "/Users/user99/Documents/convoy prototype/.build/index-build/arm64-apple-macosx/debug/Convoy.build/SafetyCenterView.swift.o",
+        "/Users/user99/Documents/convoy prototype/.build/index-build/arm64-apple-macosx/debug/Convoy.build/SafetyViewModel.swift.o",
+        "/Users/user99/Documents/convoy prototype/.build/index-build/arm64-apple-macosx/debug/Convoy.build/Club.swift.o",
+        "/Users/user99/Documents/convoy prototype/.build/index-build/arm64-apple-macosx/debug/Convoy.build/Enums.swift.o",
+        "/Users/user99/Documents/convoy prototype/.build/index-build/arm64-apple-macosx/debug/Convoy.build/Ride.swift.o",
+        "/Users/user99/Documents/convoy prototype/.build/index-build/arm64-apple-macosx/debug/Convoy.build/User.swift.o",
+        "/Users/user99/Documents/convoy prototype/.build/index-build/arm64-apple-macosx/debug/Convoy.build/AIService.swift.o",
+        "/Users/user99/Documents/convoy prototype/.build/index-build/arm64-apple-macosx/debug/Convoy.build/AuthService.swift.o",
+        "/Users/user99/Documents/convoy prototype/.build/index-build/arm64-apple-macosx/debug/Convoy.build/DemoDataService.swift.o",
+        "/Users/user99/Documents/convoy prototype/.build/index-build/arm64-apple-macosx/debug/Convoy.build/LocationSharingService.swift.o",
+        "/Users/user99/Documents/convoy prototype/.build/index-build/arm64-apple-macosx/debug/Convoy.build/RideService.swift.o",
+        "/Users/user99/Documents/convoy prototype/.build/index-build/arm64-apple-macosx/debug/Convoy.build/SafetyService.swift.o",
+        "/Users/user99/Documents/convoy prototype/.build/index-build/arm64-apple-macosx/debug/Convoy.build/WeatherService.swift.o"
+      ],
+      "otherArguments" : [
+        "-target",
+        "arm64-apple-macosx14.0",
+        "-incremental",
+        "-enable-batch-mode",
+        "-serialize-diagnostics",
+        "-Onone",
+        "-enable-testing",
+        "-j12",
+        "-DSWIFT_PACKAGE",
+        "-DDEBUG",
+        "-DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE",
+        "-module-cache-path",
+        "/Users/user99/Documents/convoy prototype/.build/index-build/arm64-apple-macosx/debug/ModuleCache",
+        "-parseable-output",
+        "-parse-as-library",
+        "-emit-objc-header",
+        "-emit-objc-header-path",
+        "/Users/user99/Documents/convoy prototype/.build/index-build/arm64-apple-macosx/debug/Convoy.build/include/Convoy-Swift.h",
+        "-swift-version",
+        "5",
+        "-Xfrontend",
+        "-experimental-lazy-typecheck",
+        "-Xfrontend",
+        "-experimental-skip-all-function-bodies",
+        "-Xfrontend",
+        "-experimental-allow-module-with-compiler-errors",
+        "-Xfrontend",
+        "-empty-abi-descriptor",
+        "-plugin-path",
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/host/plugins/testing",
+        "-sdk",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX27.0.sdk",
+        "-F",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-I",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-L",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-g",
+        "-Xcc",
+        "-isysroot",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX27.0.sdk",
+        "-Xcc",
+        "-F",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-Xcc",
+        "-fPIC",
+        "-Xcc",
+        "-g",
+        "-package-name",
+        "convoy_prototype"
+      ],
+      "outputFileMapPath" : "/Users/user99/Documents/convoy prototype/.build/index-build/arm64-apple-macosx/debug/Convoy.build/output-file-map.json",
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/user99/Documents/convoy prototype/.build/index-build/arm64-apple-macosx/debug/Modules/Convoy.swiftmodule"
+        }
+      ],
+      "prepareForIndexing" : true,
+      "sources" : [
+        "/Users/user99/Documents/convoy prototype/Convoy/App/AppCoordinator.swift",
+        "/Users/user99/Documents/convoy prototype/Convoy/App/AppState.swift",
+        "/Users/user99/Documents/convoy prototype/Convoy/App/ConvoyApp.swift",
+        "/Users/user99/Documents/convoy prototype/Convoy/App/MainTabView.swift",
+        "/Users/user99/Documents/convoy prototype/Convoy/App/TabRouter.swift",
+        "/Users/user99/Documents/convoy prototype/Convoy/Core/DesignSystem/ConvoyButton.swift",
+        "/Users/user99/Documents/convoy prototype/Convoy/Core/DesignSystem/ConvoyCard.swift",
+        "/Users/user99/Documents/convoy prototype/Convoy/Core/DesignSystem/ConvoyComponents.swift",
+        "/Users/user99/Documents/convoy prototype/Convoy/Core/DesignSystem/ConvoyTheme.swift",
+        "/Users/user99/Documents/convoy prototype/Convoy/Core/Location/LocationManager.swift",
+        "/Users/user99/Documents/convoy prototype/Convoy/Core/Networking/MockNetworkService.swift",
+        "/Users/user99/Documents/convoy prototype/Convoy/Core/Networking/NetworkService.swift",
+        "/Users/user99/Documents/convoy prototype/Convoy/Core/Persistence/PersistenceController.swift",
+        "/Users/user99/Documents/convoy prototype/Convoy/Core/Utilities/Extensions.swift",
+        "/Users/user99/Documents/convoy prototype/Convoy/Core/Utilities/HapticManager.swift",
+        "/Users/user99/Documents/convoy prototype/Convoy/Features/Clubs/ClubsView.swift",
+        "/Users/user99/Documents/convoy prototype/Convoy/Features/Clubs/ClubsViewModel.swift",
+        "/Users/user99/Documents/convoy prototype/Convoy/Features/Friends/FriendsView.swift",
+        "/Users/user99/Documents/convoy prototype/Convoy/Features/Friends/FriendsViewModel.swift",
+        "/Users/user99/Documents/convoy prototype/Convoy/Features/Home/HomeView.swift",
+        "/Users/user99/Documents/convoy prototype/Convoy/Features/Home/HomeViewModel.swift",
+        "/Users/user99/Documents/convoy prototype/Convoy/Features/Journal/JournalViewModel.swift",
+        "/Users/user99/Documents/convoy prototype/Convoy/Features/Journal/RideJournalView.swift",
+        "/Users/user99/Documents/convoy prototype/Convoy/Features/LiveRide/GroupMapView.swift",
+        "/Users/user99/Documents/convoy prototype/Convoy/Features/LiveRide/LiveRideView.swift",
+        "/Users/user99/Documents/convoy prototype/Convoy/Features/LiveRide/LiveRideViewModel.swift",
+        "/Users/user99/Documents/convoy prototype/Convoy/Features/LiveRide/RideCompleteView.swift",
+        "/Users/user99/Documents/convoy prototype/Convoy/Features/Onboarding/OnboardingView.swift",
+        "/Users/user99/Documents/convoy prototype/Convoy/Features/Onboarding/OnboardingViewModel.swift",
+        "/Users/user99/Documents/convoy prototype/Convoy/Features/Planning/AIPlannerView.swift",
+        "/Users/user99/Documents/convoy prototype/Convoy/Features/Planning/PlanRideView.swift",
+        "/Users/user99/Documents/convoy prototype/Convoy/Features/Planning/PlanningViewModel.swift",
+        "/Users/user99/Documents/convoy prototype/Convoy/Features/Planning/RoutePlannerView.swift",
+        "/Users/user99/Documents/convoy prototype/Convoy/Features/Profile/ProfileView.swift",
+        "/Users/user99/Documents/convoy prototype/Convoy/Features/Profile/ProfileViewModel.swift",
+        "/Users/user99/Documents/convoy prototype/Convoy/Features/Rides/RideDetailView.swift",
+        "/Users/user99/Documents/convoy prototype/Convoy/Features/Rides/RidesView.swift",
+        "/Users/user99/Documents/convoy prototype/Convoy/Features/Rides/RidesViewModel.swift",
+        "/Users/user99/Documents/convoy prototype/Convoy/Features/Safety/SafetyCenterView.swift",
+        "/Users/user99/Documents/convoy prototype/Convoy/Features/Safety/SafetyViewModel.swift",
+        "/Users/user99/Documents/convoy prototype/Convoy/Models/Club.swift",
+        "/Users/user99/Documents/convoy prototype/Convoy/Models/Enums.swift",
+        "/Users/user99/Documents/convoy prototype/Convoy/Models/Ride.swift",
+        "/Users/user99/Documents/convoy prototype/Convoy/Models/User.swift",
+        "/Users/user99/Documents/convoy prototype/Convoy/Services/AIService.swift",
+        "/Users/user99/Documents/convoy prototype/Convoy/Services/AuthService.swift",
+        "/Users/user99/Documents/convoy prototype/Convoy/Services/DemoDataService.swift",
+        "/Users/user99/Documents/convoy prototype/Convoy/Services/LocationSharingService.swift",
+        "/Users/user99/Documents/convoy prototype/Convoy/Services/RideService.swift",
+        "/Users/user99/Documents/convoy prototype/Convoy/Services/SafetyService.swift",
+        "/Users/user99/Documents/convoy prototype/Convoy/Services/WeatherService.swift"
+      ],
+      "tempsPath" : "/Users/user99/Documents/convoy prototype/.build/index-build/arm64-apple-macosx/debug/Convoy.build",
+      "wholeModuleOptimization" : false
+    }
+  },
+  "swiftFrontendCommands" : {
+
+  },
+  "swiftTargetScanArgs" : {
+    "Convoy" : [
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "-module-name",
+      "Convoy",
+      "-package-name",
+      "convoy_prototype",
+      "-c",
+      "/Users/user99/Documents/convoy prototype/Convoy/App/AppCoordinator.swift",
+      "/Users/user99/Documents/convoy prototype/Convoy/App/AppState.swift",
+      "/Users/user99/Documents/convoy prototype/Convoy/App/ConvoyApp.swift",
+      "/Users/user99/Documents/convoy prototype/Convoy/App/MainTabView.swift",
+      "/Users/user99/Documents/convoy prototype/Convoy/App/TabRouter.swift",
+      "/Users/user99/Documents/convoy prototype/Convoy/Core/DesignSystem/ConvoyButton.swift",
+      "/Users/user99/Documents/convoy prototype/Convoy/Core/DesignSystem/ConvoyCard.swift",
+      "/Users/user99/Documents/convoy prototype/Convoy/Core/DesignSystem/ConvoyComponents.swift",
+      "/Users/user99/Documents/convoy prototype/Convoy/Core/DesignSystem/ConvoyTheme.swift",
+      "/Users/user99/Documents/convoy prototype/Convoy/Core/Location/LocationManager.swift",
+      "/Users/user99/Documents/convoy prototype/Convoy/Core/Networking/MockNetworkService.swift",
+      "/Users/user99/Documents/convoy prototype/Convoy/Core/Networking/NetworkService.swift",
+      "/Users/user99/Documents/convoy prototype/Convoy/Core/Persistence/PersistenceController.swift",
+      "/Users/user99/Documents/convoy prototype/Convoy/Core/Utilities/Extensions.swift",
+      "/Users/user99/Documents/convoy prototype/Convoy/Core/Utilities/HapticManager.swift",
+      "/Users/user99/Documents/convoy prototype/Convoy/Features/Clubs/ClubsView.swift",
+      "/Users/user99/Documents/convoy prototype/Convoy/Features/Clubs/ClubsViewModel.swift",
+      "/Users/user99/Documents/convoy prototype/Convoy/Features/Friends/FriendsView.swift",
+      "/Users/user99/Documents/convoy prototype/Convoy/Features/Friends/FriendsViewModel.swift",
+      "/Users/user99/Documents/convoy prototype/Convoy/Features/Home/HomeView.swift",
+      "/Users/user99/Documents/convoy prototype/Convoy/Features/Home/HomeViewModel.swift",
+      "/Users/user99/Documents/convoy prototype/Convoy/Features/Journal/JournalViewModel.swift",
+      "/Users/user99/Documents/convoy prototype/Convoy/Features/Journal/RideJournalView.swift",
+      "/Users/user99/Documents/convoy prototype/Convoy/Features/LiveRide/GroupMapView.swift",
+      "/Users/user99/Documents/convoy prototype/Convoy/Features/LiveRide/LiveRideView.swift",
+      "/Users/user99/Documents/convoy prototype/Convoy/Features/LiveRide/LiveRideViewModel.swift",
+      "/Users/user99/Documents/convoy prototype/Convoy/Features/LiveRide/RideCompleteView.swift",
+      "/Users/user99/Documents/convoy prototype/Convoy/Features/Onboarding/OnboardingView.swift",
+      "/Users/user99/Documents/convoy prototype/Convoy/Features/Onboarding/OnboardingViewModel.swift",
+      "/Users/user99/Documents/convoy prototype/Convoy/Features/Planning/AIPlannerView.swift",
+      "/Users/user99/Documents/convoy prototype/Convoy/Features/Planning/PlanRideView.swift",
+      "/Users/user99/Documents/convoy prototype/Convoy/Features/Planning/PlanningViewModel.swift",
+      "/Users/user99/Documents/convoy prototype/Convoy/Features/Planning/RoutePlannerView.swift",
+      "/Users/user99/Documents/convoy prototype/Convoy/Features/Profile/ProfileView.swift",
+      "/Users/user99/Documents/convoy prototype/Convoy/Features/Profile/ProfileViewModel.swift",
+      "/Users/user99/Documents/convoy prototype/Convoy/Features/Rides/RideDetailView.swift",
+      "/Users/user99/Documents/convoy prototype/Convoy/Features/Rides/RidesView.swift",
+      "/Users/user99/Documents/convoy prototype/Convoy/Features/Rides/RidesViewModel.swift",
+      "/Users/user99/Documents/convoy prototype/Convoy/Features/Safety/SafetyCenterView.swift",
+      "/Users/user99/Documents/convoy prototype/Convoy/Features/Safety/SafetyViewModel.swift",
+      "/Users/user99/Documents/convoy prototype/Convoy/Models/Club.swift",
+      "/Users/user99/Documents/convoy prototype/Convoy/Models/Enums.swift",
+      "/Users/user99/Documents/convoy prototype/Convoy/Models/Ride.swift",
+      "/Users/user99/Documents/convoy prototype/Convoy/Models/User.swift",
+      "/Users/user99/Documents/convoy prototype/Convoy/Services/AIService.swift",
+      "/Users/user99/Documents/convoy prototype/Convoy/Services/AuthService.swift",
+      "/Users/user99/Documents/convoy prototype/Convoy/Services/DemoDataService.swift",
+      "/Users/user99/Documents/convoy prototype/Convoy/Services/LocationSharingService.swift",
+      "/Users/user99/Documents/convoy prototype/Convoy/Services/RideService.swift",
+      "/Users/user99/Documents/convoy prototype/Convoy/Services/SafetyService.swift",
+      "/Users/user99/Documents/convoy prototype/Convoy/Services/WeatherService.swift",
+      "-I",
+      "/Users/user99/Documents/convoy prototype/.build/index-build/arm64-apple-macosx/debug/Modules",
+      "-target",
+      "arm64-apple-macosx14.0",
+      "-incremental",
+      "-enable-batch-mode",
+      "-serialize-diagnostics",
+      "-Onone",
+      "-enable-testing",
+      "-j12",
+      "-DSWIFT_PACKAGE",
+      "-DDEBUG",
+      "-DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE",
+      "-module-cache-path",
+      "/Users/user99/Documents/convoy prototype/.build/index-build/arm64-apple-macosx/debug/ModuleCache",
+      "-parseable-output",
+      "-parse-as-library",
+      "-emit-objc-header",
+      "-emit-objc-header-path",
+      "/Users/user99/Documents/convoy prototype/.build/index-build/arm64-apple-macosx/debug/Convoy.build/include/Convoy-Swift.h",
+      "-swift-version",
+      "5",
+      "-Xfrontend",
+      "-experimental-lazy-typecheck",
+      "-Xfrontend",
+      "-experimental-skip-all-function-bodies",
+      "-Xfrontend",
+      "-experimental-allow-module-with-compiler-errors",
+      "-Xfrontend",
+      "-empty-abi-descriptor",
+      "-plugin-path",
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/host/plugins/testing",
+      "-sdk",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX27.0.sdk",
+      "-F",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-I",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-L",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-g",
+      "-Xcc",
+      "-isysroot",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX27.0.sdk",
+      "-Xcc",
+      "-F",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-Xcc",
+      "-fPIC",
+      "-Xcc",
+      "-g",
+      "-package-name",
+      "convoy_prototype",
+      "-driver-use-frontend-path",
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc"
+    ]
+  },
+  "targetDependencyMap" : {
+    "Convoy" : [
+
+    ]
+  },
+  "testDiscoveryCommands" : {
+
+  },
+  "testEntryPointCommands" : {
+
+  },
+  "traitConfiguration" : {
+    "default" : [
+      {
+
+      }
+    ]
+  },
+  "writeCommands" : {
+    "/Users/user99/Documents/convoy prototype/.build/index-build/arm64-apple-macosx/debug/Convoy.build/sources" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<sources-file-list>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/user99/Documents/convoy prototype/Convoy/App/AppCoordinator.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/user99/Documents/convoy prototype/Convoy/App/AppState.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/user99/Documents/convoy prototype/Convoy/App/ConvoyApp.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/user99/Documents/convoy prototype/Convoy/App/MainTabView.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/user99/Documents/convoy prototype/Convoy/App/TabRouter.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/user99/Documents/convoy prototype/Convoy/Core/DesignSystem/ConvoyButton.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/user99/Documents/convoy prototype/Convoy/Core/DesignSystem/ConvoyCard.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/user99/Documents/convoy prototype/Convoy/Core/DesignSystem/ConvoyComponents.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/user99/Documents/convoy prototype/Convoy/Core/DesignSystem/ConvoyTheme.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/user99/Documents/convoy prototype/Convoy/Core/Location/LocationManager.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/user99/Documents/convoy prototype/Convoy/Core/Networking/MockNetworkService.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/user99/Documents/convoy prototype/Convoy/Core/Networking/NetworkService.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/user99/Documents/convoy prototype/Convoy/Core/Persistence/PersistenceController.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/user99/Documents/convoy prototype/Convoy/Core/Utilities/Extensions.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/user99/Documents/convoy prototype/Convoy/Core/Utilities/HapticManager.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/user99/Documents/convoy prototype/Convoy/Features/Clubs/ClubsView.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/user99/Documents/convoy prototype/Convoy/Features/Clubs/ClubsViewModel.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/user99/Documents/convoy prototype/Convoy/Features/Friends/FriendsView.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/user99/Documents/convoy prototype/Convoy/Features/Friends/FriendsViewModel.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/user99/Documents/convoy prototype/Convoy/Features/Home/HomeView.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/user99/Documents/convoy prototype/Convoy/Features/Home/HomeViewModel.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/user99/Documents/convoy prototype/Convoy/Features/Journal/JournalViewModel.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/user99/Documents/convoy prototype/Convoy/Features/Journal/RideJournalView.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/user99/Documents/convoy prototype/Convoy/Features/LiveRide/GroupMapView.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/user99/Documents/convoy prototype/Convoy/Features/LiveRide/LiveRideView.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/user99/Documents/convoy prototype/Convoy/Features/LiveRide/LiveRideViewModel.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/user99/Documents/convoy prototype/Convoy/Features/LiveRide/RideCompleteView.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/user99/Documents/convoy prototype/Convoy/Features/Onboarding/OnboardingView.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/user99/Documents/convoy prototype/Convoy/Features/Onboarding/OnboardingViewModel.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/user99/Documents/convoy prototype/Convoy/Features/Planning/AIPlannerView.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/user99/Documents/convoy prototype/Convoy/Features/Planning/PlanRideView.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/user99/Documents/convoy prototype/Convoy/Features/Planning/PlanningViewModel.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/user99/Documents/convoy prototype/Convoy/Features/Planning/RoutePlannerView.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/user99/Documents/convoy prototype/Convoy/Features/Profile/ProfileView.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/user99/Documents/convoy prototype/Convoy/Features/Profile/ProfileViewModel.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/user99/Documents/convoy prototype/Convoy/Features/Rides/RideDetailView.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/user99/Documents/convoy prototype/Convoy/Features/Rides/RidesView.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/user99/Documents/convoy prototype/Convoy/Features/Rides/RidesViewModel.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/user99/Documents/convoy prototype/Convoy/Features/Safety/SafetyCenterView.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/user99/Documents/convoy prototype/Convoy/Features/Safety/SafetyViewModel.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/user99/Documents/convoy prototype/Convoy/Models/Club.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/user99/Documents/convoy prototype/Convoy/Models/Enums.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/user99/Documents/convoy prototype/Convoy/Models/Ride.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/user99/Documents/convoy prototype/Convoy/Models/User.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/user99/Documents/convoy prototype/Convoy/Services/AIService.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/user99/Documents/convoy prototype/Convoy/Services/AuthService.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/user99/Documents/convoy prototype/Convoy/Services/DemoDataService.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/user99/Documents/convoy prototype/Convoy/Services/LocationSharingService.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/user99/Documents/convoy prototype/Convoy/Services/RideService.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/user99/Documents/convoy prototype/Convoy/Services/SafetyService.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/user99/Documents/convoy prototype/Convoy/Services/WeatherService.swift"
+        }
+      ],
+      "outputFilePath" : "/Users/user99/Documents/convoy prototype/.build/index-build/arm64-apple-macosx/debug/Convoy.build/sources"
+    },
+    "/Users/user99/Documents/convoy prototype/.build/index-build/arm64-apple-macosx/debug/swift-version--58304C5D6DBC2206.txt" : {
+      "alwaysOutOfDate" : true,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<swift-get-version>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc"
+        }
+      ],
+      "outputFilePath" : "/Users/user99/Documents/convoy prototype/.build/index-build/arm64-apple-macosx/debug/swift-version--58304C5D6DBC2206.txt"
+    }
+  }
+}

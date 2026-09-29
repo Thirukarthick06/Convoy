@@ -1,0 +1,503 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C00100012C00000100000001 /* AppState.swift in Sources */ = {isa = PBXBuildFile; fileRef = C00200012C00000100000001 /* AppState.swift */; };
+		C00100022C00000100000001 /* ConvoyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C00200022C00000100000001 /* ConvoyApp.swift */; };
+		C00100032C00000100000001 /* MainTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C00200032C00000100000001 /* MainTabView.swift */; };
+		C00100042C00000100000001 /* ConvoyButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = C00200042C00000100000001 /* ConvoyButton.swift */; };
+		C00100052C00000100000001 /* ConvoyCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = C00200052C00000100000001 /* ConvoyCard.swift */; };
+		C00100062C00000100000001 /* ConvoyComponents.swift in Sources */ = {isa = PBXBuildFile; fileRef = C00200062C00000100000001 /* ConvoyComponents.swift */; };
+		C00100072C00000100000001 /* ConvoyTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = C00200072C00000100000001 /* ConvoyTheme.swift */; };
+		C00100082C00000100000001 /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C00200082C00000100000001 /* LocationManager.swift */; };
+		C00100092C00000100000001 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C00200092C00000100000001 /* Extensions.swift */; };
+		C00100102C00000100000001 /* HapticManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C00200102C00000100000001 /* HapticManager.swift */; };
+		C00100112C00000100000001 /* ClubsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C00200112C00000100000001 /* ClubsView.swift */; };
+		C00100122C00000100000001 /* FriendsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C00200122C00000100000001 /* FriendsView.swift */; };
+		C00100132C00000100000001 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C00200132C00000100000001 /* HomeView.swift */; };
+		C00100142C00000100000001 /* RideJournalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C00200142C00000100000001 /* RideJournalView.swift */; };
+		C00100152C00000100000001 /* LiveRideView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C00200152C00000100000001 /* LiveRideView.swift */; };
+		C00100162C00000100000001 /* RideCompleteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C00200162C00000100000001 /* RideCompleteView.swift */; };
+		C00100172C00000100000001 /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C00200172C00000100000001 /* OnboardingView.swift */; };
+		C00100182C00000100000001 /* PlanRideView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C00200182C00000100000001 /* PlanRideView.swift */; };
+		C00100192C00000100000001 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C00200192C00000100000001 /* ProfileView.swift */; };
+		C00100202C00000100000001 /* RideDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C00200202C00000100000001 /* RideDetailView.swift */; };
+		C00100212C00000100000001 /* RidesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C00200212C00000100000001 /* RidesView.swift */; };
+		C00100222C00000100000001 /* SafetyCenterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C00200222C00000100000001 /* SafetyCenterView.swift */; };
+		C00100232C00000100000001 /* Club.swift in Sources */ = {isa = PBXBuildFile; fileRef = C00200232C00000100000001 /* Club.swift */; };
+		C00100242C00000100000001 /* Enums.swift in Sources */ = {isa = PBXBuildFile; fileRef = C00200242C00000100000001 /* Enums.swift */; };
+		C00100252C00000100000001 /* Ride.swift in Sources */ = {isa = PBXBuildFile; fileRef = C00200252C00000100000001 /* Ride.swift */; };
+		C00100262C00000100000001 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = C00200262C00000100000001 /* User.swift */; };
+		C00100272C00000100000001 /* DemoDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = C00200272C00000100000001 /* DemoDataService.swift */; };
+		C00100282C00000100000001 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C00200282C00000100000001 /* Assets.xcassets */; };
+		C00100292C00000100000001 /* PersistenceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C00200302C00000100000001 /* PersistenceController.swift */; };
+		C00100302C00000100000001 /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = C00200312C00000100000001 /* NetworkService.swift */; };
+		C00100312C00000100000001 /* MockNetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = C00200322C00000100000001 /* MockNetworkService.swift */; };
+		C00100322C00000100000001 /* AppCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = C00200332C00000100000001 /* AppCoordinator.swift */; };
+		C00100332C00000100000001 /* TabRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = C00200342C00000100000001 /* TabRouter.swift */; };
+		C00100342C00000100000001 /* AuthService.swift in Sources */ = {isa = PBXBuildFile; fileRef = C00200352C00000100000001 /* AuthService.swift */; };
+		C00100352C00000100000001 /* RideService.swift in Sources */ = {isa = PBXBuildFile; fileRef = C00200362C00000100000001 /* RideService.swift */; };
+		C00100362C00000100000001 /* LocationSharingService.swift in Sources */ = {isa = PBXBuildFile; fileRef = C00200372C00000100000001 /* LocationSharingService.swift */; };
+		C00100372C00000100000001 /* SafetyService.swift in Sources */ = {isa = PBXBuildFile; fileRef = C00200382C00000100000001 /* SafetyService.swift */; };
+		C00100382C00000100000001 /* AIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = C00200392C00000100000001 /* AIService.swift */; };
+		C00100392C00000100000001 /* WeatherService.swift in Sources */ = {isa = PBXBuildFile; fileRef = C00200402C00000100000001 /* WeatherService.swift */; };
+		C00100402C00000100000001 /* RoutePlannerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C00200412C00000100000001 /* RoutePlannerView.swift */; };
+		C00100412C00000100000001 /* AIPlannerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C00200422C00000100000001 /* AIPlannerView.swift */; };
+		C00100422C00000100000001 /* GroupMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C00200432C00000100000001 /* GroupMapView.swift */; };
+		C00100432C00000100000001 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C00200442C00000100000001 /* HomeViewModel.swift */; };
+		C00100442C00000100000001 /* RidesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C00200452C00000100000001 /* RidesViewModel.swift */; };
+		C00100452C00000100000001 /* LiveRideViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C00200462C00000100000001 /* LiveRideViewModel.swift */; };
+		C00100462C00000100000001 /* SafetyViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C00200472C00000100000001 /* SafetyViewModel.swift */; };
+		C00100472C00000100000001 /* PlanningViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C00200482C00000100000001 /* PlanningViewModel.swift */; };
+		C00100482C00000100000001 /* ClubsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C00200492C00000100000001 /* ClubsViewModel.swift */; };
+		C00100492C00000100000001 /* FriendsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C00200502C00000100000001 /* FriendsViewModel.swift */; };
+		C00100502C00000100000001 /* ProfileViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C00200512C00000100000001 /* ProfileViewModel.swift */; };
+		C00100512C00000100000001 /* JournalViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C00200522C00000100000001 /* JournalViewModel.swift */; };
+		C00100522C00000100000001 /* OnboardingViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C00200532C00000100000001 /* OnboardingViewModel.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		C00000012C00000100000001 /* Convoy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Convoy.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C00200012C00000100000001 /* AppState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppState.swift; sourceTree = "<group>"; };
+		C00200022C00000100000001 /* ConvoyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConvoyApp.swift; sourceTree = "<group>"; };
+		C00200032C00000100000001 /* MainTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabView.swift; sourceTree = "<group>"; };
+		C00200042C00000100000001 /* ConvoyButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesignSystem/ConvoyButton.swift; sourceTree = "<group>"; };
+		C00200052C00000100000001 /* ConvoyCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesignSystem/ConvoyCard.swift; sourceTree = "<group>"; };
+		C00200062C00000100000001 /* ConvoyComponents.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesignSystem/ConvoyComponents.swift; sourceTree = "<group>"; };
+		C00200072C00000100000001 /* ConvoyTheme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesignSystem/ConvoyTheme.swift; sourceTree = "<group>"; };
+		C00200082C00000100000001 /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Location/LocationManager.swift; sourceTree = "<group>"; };
+		C00200092C00000100000001 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utilities/Extensions.swift; sourceTree = "<group>"; };
+		C00200102C00000100000001 /* HapticManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utilities/HapticManager.swift; sourceTree = "<group>"; };
+		C00200112C00000100000001 /* ClubsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Clubs/ClubsView.swift; sourceTree = "<group>"; };
+		C00200122C00000100000001 /* FriendsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Friends/FriendsView.swift; sourceTree = "<group>"; };
+		C00200132C00000100000001 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home/HomeView.swift; sourceTree = "<group>"; };
+		C00200142C00000100000001 /* RideJournalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Journal/RideJournalView.swift; sourceTree = "<group>"; };
+		C00200152C00000100000001 /* LiveRideView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiveRide/LiveRideView.swift; sourceTree = "<group>"; };
+		C00200162C00000100000001 /* RideCompleteView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiveRide/RideCompleteView.swift; sourceTree = "<group>"; };
+		C00200172C00000100000001 /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Onboarding/OnboardingView.swift; sourceTree = "<group>"; };
+		C00200182C00000100000001 /* PlanRideView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Planning/PlanRideView.swift; sourceTree = "<group>"; };
+		C00200192C00000100000001 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Profile/ProfileView.swift; sourceTree = "<group>"; };
+		C00200202C00000100000001 /* RideDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rides/RideDetailView.swift; sourceTree = "<group>"; };
+		C00200212C00000100000001 /* RidesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rides/RidesView.swift; sourceTree = "<group>"; };
+		C00200222C00000100000001 /* SafetyCenterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Safety/SafetyCenterView.swift; sourceTree = "<group>"; };
+		C00200232C00000100000001 /* Club.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Club.swift; sourceTree = "<group>"; };
+		C00200242C00000100000001 /* Enums.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Enums.swift; sourceTree = "<group>"; };
+		C00200252C00000100000001 /* Ride.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ride.swift; sourceTree = "<group>"; };
+		C00200262C00000100000001 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		C00200272C00000100000001 /* DemoDataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoDataService.swift; sourceTree = "<group>"; };
+		C00200282C00000100000001 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C00200292C00000100000001 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C00200302C00000100000001 /* PersistenceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence/PersistenceController.swift; sourceTree = "<group>"; };
+		C00200312C00000100000001 /* NetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Networking/NetworkService.swift; sourceTree = "<group>"; };
+		C00200322C00000100000001 /* MockNetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Networking/MockNetworkService.swift; sourceTree = "<group>"; };
+		C00200332C00000100000001 /* AppCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCoordinator.swift; sourceTree = "<group>"; };
+		C00200342C00000100000001 /* TabRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabRouter.swift; sourceTree = "<group>"; };
+		C00200352C00000100000001 /* AuthService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthService.swift; sourceTree = "<group>"; };
+		C00200362C00000100000001 /* RideService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RideService.swift; sourceTree = "<group>"; };
+		C00200372C00000100000001 /* LocationSharingService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationSharingService.swift; sourceTree = "<group>"; };
+		C00200382C00000100000001 /* SafetyService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafetyService.swift; sourceTree = "<group>"; };
+		C00200392C00000100000001 /* AIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AIService.swift; sourceTree = "<group>"; };
+		C00200402C00000100000001 /* WeatherService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherService.swift; sourceTree = "<group>"; };
+		C00200412C00000100000001 /* RoutePlannerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Planning/RoutePlannerView.swift; sourceTree = "<group>"; };
+		C00200422C00000100000001 /* AIPlannerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Planning/AIPlannerView.swift; sourceTree = "<group>"; };
+		C00200432C00000100000001 /* GroupMapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiveRide/GroupMapView.swift; sourceTree = "<group>"; };
+		C00200442C00000100000001 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home/HomeViewModel.swift; sourceTree = "<group>"; };
+		C00200452C00000100000001 /* RidesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rides/RidesViewModel.swift; sourceTree = "<group>"; };
+		C00200462C00000100000001 /* LiveRideViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiveRide/LiveRideViewModel.swift; sourceTree = "<group>"; };
+		C00200472C00000100000001 /* SafetyViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Safety/SafetyViewModel.swift; sourceTree = "<group>"; };
+		C00200482C00000100000001 /* PlanningViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Planning/PlanningViewModel.swift; sourceTree = "<group>"; };
+		C00200492C00000100000001 /* ClubsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Clubs/ClubsViewModel.swift; sourceTree = "<group>"; };
+		C00200502C00000100000001 /* FriendsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Friends/FriendsViewModel.swift; sourceTree = "<group>"; };
+		C00200512C00000100000001 /* ProfileViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Profile/ProfileViewModel.swift; sourceTree = "<group>"; };
+		C00200522C00000100000001 /* JournalViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Journal/JournalViewModel.swift; sourceTree = "<group>"; };
+		C00200532C00000100000001 /* OnboardingViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Onboarding/OnboardingViewModel.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C00300012C00000100000001 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C00400012C00000100000001 = {
+			isa = PBXGroup;
+			children = (
+				C00400022C00000100000001 /* Convoy */,
+				C00400092C00000100000001 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C00400022C00000100000001 /* Convoy */ = {
+			isa = PBXGroup;
+			children = (
+				C00400032C00000100000001 /* App */,
+				C00400042C00000100000001 /* Core */,
+				C00400052C00000100000001 /* Models */,
+				C00400062C00000100000001 /* Services */,
+				C00400072C00000100000001 /* Features */,
+				C00400082C00000100000001 /* Resources */,
+				C00200292C00000100000001 /* Info.plist */,
+			);
+			path = Convoy;
+			sourceTree = "<group>";
+		};
+		C00400032C00000100000001 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				C00200022C00000100000001 /* ConvoyApp.swift */,
+				C00200012C00000100000001 /* AppState.swift */,
+				C00200032C00000100000001 /* MainTabView.swift */,
+				C00200332C00000100000001 /* AppCoordinator.swift */,
+				C00200342C00000100000001 /* TabRouter.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		C00400042C00000100000001 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				C00200042C00000100000001 /* ConvoyButton.swift */,
+				C00200052C00000100000001 /* ConvoyCard.swift */,
+				C00200062C00000100000001 /* ConvoyComponents.swift */,
+				C00200072C00000100000001 /* ConvoyTheme.swift */,
+				C00200082C00000100000001 /* LocationManager.swift */,
+				C00200092C00000100000001 /* Extensions.swift */,
+				C00200102C00000100000001 /* HapticManager.swift */,
+				C00200302C00000100000001 /* PersistenceController.swift */,
+				C00200312C00000100000001 /* NetworkService.swift */,
+				C00200322C00000100000001 /* MockNetworkService.swift */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		C00400052C00000100000001 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				C00200242C00000100000001 /* Enums.swift */,
+				C00200262C00000100000001 /* User.swift */,
+				C00200252C00000100000001 /* Ride.swift */,
+				C00200232C00000100000001 /* Club.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		C00400062C00000100000001 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				C00200272C00000100000001 /* DemoDataService.swift */,
+				C00200352C00000100000001 /* AuthService.swift */,
+				C00200362C00000100000001 /* RideService.swift */,
+				C00200372C00000100000001 /* LocationSharingService.swift */,
+				C00200382C00000100000001 /* SafetyService.swift */,
+				C00200392C00000100000001 /* AIService.swift */,
+				C00200402C00000100000001 /* WeatherService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		C00400072C00000100000001 /* Features */ = {
+			isa = PBXGroup;
+			children = (
+				C00200172C00000100000001 /* OnboardingView.swift */,
+				C00200532C00000100000001 /* OnboardingViewModel.swift */,
+				C00200132C00000100000001 /* HomeView.swift */,
+				C00200442C00000100000001 /* HomeViewModel.swift */,
+				C00200212C00000100000001 /* RidesView.swift */,
+				C00200452C00000100000001 /* RidesViewModel.swift */,
+				C00200202C00000100000001 /* RideDetailView.swift */,
+				C00200182C00000100000001 /* PlanRideView.swift */,
+				C00200412C00000100000001 /* RoutePlannerView.swift */,
+				C00200422C00000100000001 /* AIPlannerView.swift */,
+				C00200482C00000100000001 /* PlanningViewModel.swift */,
+				C00200112C00000100000001 /* ClubsView.swift */,
+				C00200492C00000100000001 /* ClubsViewModel.swift */,
+				C00200122C00000100000001 /* FriendsView.swift */,
+				C00200502C00000100000001 /* FriendsViewModel.swift */,
+				C00200152C00000100000001 /* LiveRideView.swift */,
+				C00200432C00000100000001 /* GroupMapView.swift */,
+				C00200462C00000100000001 /* LiveRideViewModel.swift */,
+				C00200162C00000100000001 /* RideCompleteView.swift */,
+				C00200222C00000100000001 /* SafetyCenterView.swift */,
+				C00200472C00000100000001 /* SafetyViewModel.swift */,
+				C00200142C00000100000001 /* RideJournalView.swift */,
+				C00200522C00000100000001 /* JournalViewModel.swift */,
+				C00200192C00000100000001 /* ProfileView.swift */,
+				C00200512C00000100000001 /* ProfileViewModel.swift */,
+			);
+			path = Features;
+			sourceTree = "<group>";
+		};
+		C00400082C00000100000001 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				C00200282C00000100000001 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		C00400092C00000100000001 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C00000012C00000100000001 /* Convoy.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C00500012C00000100000001 /* Convoy */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C00600012C00000100000001 /* Build configuration list for PBXNativeTarget "Convoy" */;
+			buildPhases = (
+				C00700012C00000100000001 /* Sources */,
+				C00300012C00000100000001 /* Frameworks */,
+				C00800012C00000100000001 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Convoy;
+			productName = Convoy;
+			productReference = C00000012C00000100000001 /* Convoy.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C00900012C00000100000001 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					C00500012C00000100000001 = {
+						CreatedOnToolsVersion = 15.2;
+					};
+				};
+			};
+			buildConfigurationList = C00600022C00000100000001 /* Build configuration list for PBXProject "Convoy" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C00400012C00000100000001;
+			productRefGroup = C00400092C00000100000001 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C00500012C00000100000001 /* Convoy */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C00800012C00000100000001 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C00100282C00000100000001 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C00700012C00000100000001 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C00100012C00000100000001 /* AppState.swift in Sources */,
+				C00100022C00000100000001 /* ConvoyApp.swift in Sources */,
+				C00100032C00000100000001 /* MainTabView.swift in Sources */,
+				C00100042C00000100000001 /* ConvoyButton.swift in Sources */,
+				C00100052C00000100000001 /* ConvoyCard.swift in Sources */,
+				C00100062C00000100000001 /* ConvoyComponents.swift in Sources */,
+				C00100072C00000100000001 /* ConvoyTheme.swift in Sources */,
+				C00100082C00000100000001 /* LocationManager.swift in Sources */,
+				C00100092C00000100000001 /* Extensions.swift in Sources */,
+				C00100102C00000100000001 /* HapticManager.swift in Sources */,
+				C00100112C00000100000001 /* ClubsView.swift in Sources */,
+				C00100122C00000100000001 /* FriendsView.swift in Sources */,
+				C00100132C00000100000001 /* HomeView.swift in Sources */,
+				C00100142C00000100000001 /* RideJournalView.swift in Sources */,
+				C00100152C00000100000001 /* LiveRideView.swift in Sources */,
+				C00100162C00000100000001 /* RideCompleteView.swift in Sources */,
+				C00100172C00000100000001 /* OnboardingView.swift in Sources */,
+				C00100182C00000100000001 /* PlanRideView.swift in Sources */,
+				C00100192C00000100000001 /* ProfileView.swift in Sources */,
+				C00100202C00000100000001 /* RideDetailView.swift in Sources */,
+				C00100212C00000100000001 /* RidesView.swift in Sources */,
+				C00100222C00000100000001 /* SafetyCenterView.swift in Sources */,
+				C00100232C00000100000001 /* Club.swift in Sources */,
+				C00100242C00000100000001 /* Enums.swift in Sources */,
+				C00100252C00000100000001 /* Ride.swift in Sources */,
+				C00100262C00000100000001 /* User.swift in Sources */,
+				C00100272C00000100000001 /* DemoDataService.swift in Sources */,
+				C00100292C00000100000001 /* PersistenceController.swift in Sources */,
+				C00100302C00000100000001 /* NetworkService.swift in Sources */,
+				C00100312C00000100000001 /* MockNetworkService.swift in Sources */,
+				C00100322C00000100000001 /* AppCoordinator.swift in Sources */,
+				C00100332C00000100000001 /* TabRouter.swift in Sources */,
+				C00100342C00000100000001 /* AuthService.swift in Sources */,
+				C00100352C00000100000001 /* RideService.swift in Sources */,
+				C00100362C00000100000001 /* LocationSharingService.swift in Sources */,
+				C00100372C00000100000001 /* SafetyService.swift in Sources */,
+				C00100382C00000100000001 /* AIService.swift in Sources */,
+				C00100392C00000100000001 /* WeatherService.swift in Sources */,
+				C00100402C00000100000001 /* RoutePlannerView.swift in Sources */,
+				C00100412C00000100000001 /* AIPlannerView.swift in Sources */,
+				C00100422C00000100000001 /* GroupMapView.swift in Sources */,
+				C00100432C00000100000001 /* HomeViewModel.swift in Sources */,
+				C00100442C00000100000001 /* RidesViewModel.swift in Sources */,
+				C00100452C00000100000001 /* LiveRideViewModel.swift in Sources */,
+				C00100462C00000100000001 /* SafetyViewModel.swift in Sources */,
+				C00100472C00000100000001 /* PlanningViewModel.swift in Sources */,
+				C00100482C00000100000001 /* ClubsViewModel.swift in Sources */,
+				C00100492C00000100000001 /* FriendsViewModel.swift in Sources */,
+				C00100502C00000100000001 /* ProfileViewModel.swift in Sources */,
+				C00100512C00000100000001 /* JournalViewModel.swift in Sources */,
+				C00100522C00000100000001 /* OnboardingViewModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		C00A00012C00000100000001 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = Convoy/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = app.convoy.ios;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C00A00022C00000100000001 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = Convoy/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = app.convoy.ios;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C00A00032C00000100000001 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C00A00042C00000100000001 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C00600012C00000100000001 /* Build configuration list for PBXNativeTarget "Convoy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C00A00012C00000100000001 /* Debug */,
+				C00A00022C00000100000001 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C00600022C00000100000001 /* Build configuration list for PBXProject "Convoy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C00A00032C00000100000001 /* Debug */,
+				C00A00042C00000100000001 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C00900012C00000100000001 /* Project object */;
+}
